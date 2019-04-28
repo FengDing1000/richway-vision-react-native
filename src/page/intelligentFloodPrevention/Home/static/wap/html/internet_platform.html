@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="江河瑞通关键字">
+    <meta name="keywords" content="江河瑞通关键字">
+    <meta name="robots" content="index,follow"/>
+    <meta name="renderer" content="webkit">
+    <meta name="viewport"
+          content="initial-scale=1,user-scalable=no,width=device-width,viewport-fit=cover,minimum-scale=1,maximum-scale=1,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-title" content="应用标题">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta content="always" name="referrer">
+    <title>物联网平台</title>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+    <link rel="stylesheet" href="../../assets/css/leaflet.css">
+    <script type="text/javascript" src="../../assets/js/leaflet.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/vue.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/moment-2.22.2.min.js"></script>
+    <style>#richway_init_loading {
+        background-color: #545c64;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+        margin-top: 0;
+        top: 0
+    }
+
+    .loading-center {
+        width: 100%;
+        height: 100%;
+        position: relative
+    }
+
+    .loading-center-absolute {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 200px;
+        width: 200px;
+        margin-top: -100px;
+        margin-left: -100px
+    }
+
+    .object {
+        border-radius: 50% 50% 50% 50%;
+        position: absolute;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        animation: animate 2s infinite
+    }
+
+    .object_one {
+        left: 75px;
+        top: 75px;
+        width: 50px;
+        height: 50px
+    }
+
+    .object_two {
+        left: 65px;
+        top: 65px;
+        width: 70px;
+        height: 70px;
+        -webkit-animation-delay: .1s;
+        animation-delay: .1s
+    }
+
+    .object_three {
+        left: 55px;
+        top: 55px;
+        width: 90px;
+        height: 90px;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s
+    }
+
+    .object_four {
+        left: 45px;
+        top: 45px;
+        width: 110px;
+        height: 110px;
+        -webkit-animation-delay: .3s;
+        animation-delay: .3s
+    }
+
+    @-webkit-keyframes animate {
+        50% {
+            -ms-transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg)
+        }
+        100% {
+            -ms-transform: rotate(0);
+            -webkit-transform: rotate(0);
+            transform: rotate(0)
+        }
+    }
+
+    @keyframes animate {
+        50% {
+            -ms-transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg)
+        }
+        100% {
+            -ms-transform: rotate(0);
+            -webkit-transform: rotate(0);
+            transform: rotate(0)
+        }
+    }
+
+    #richway_main {
+        position: relative;
+        z-index: 1;
+        height: 100%
+    }</style>
+    <link href="../css/internet_platform_main.ff15b987.css" rel="stylesheet">
+</head>
+<body>
+<div id="richway_init_loading">
+    <div class="loading-center">
+        <div class="loading-center-absolute">
+            <div class="object object_four"></div>
+            <div class="object object_three"></div>
+            <div class="object object_two"></div>
+            <div class="object object_one"></div>
+        </div>
+    </div>
+</div>
+<div id="richway_main">
+    <transition mode="out-in" enter-active-class="slideInUp animated" leave-active-class="fadeOut animated">
+        <router-view></router-view>
+    </transition>
+</div>
+<script>window._RNConfig = {source: `RN`};</script>
+<script type="text/javascript" src="../js/manifest.caae5430.bundle.js"></script>
+<script type="text/javascript" src="../js/internet_platform_main.216ccc20.chunk.js"></script>
+</body>
+</html>

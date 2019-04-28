@@ -1,0 +1,56 @@
+{
+  "_from": "@rich/react-native-richway-component@^1.0.10",
+  "_id": "@rich/react-native-richway-component@1.0.10",
+  "_inBundle": false,
+  "_integrity": "sha1-9jwn/c0icVfazRw0Lb2hmTE18ZM=",
+  "_location": "/@rich/react-native-richway-component",
+  "_phantomChildren": {
+    "@react-navigation/core": "3.4.0",
+    "@react-navigation/native": "3.4.1",
+    "babel-plugin-flow-react-proptypes": "9.2.0",
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "react-is": "16.8.6",
+    "react-native-root-siblings": "3.1.7",
+    "react-navigation-drawer": "1.2.1",
+    "react-navigation-tabs": "1.1.2"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@rich/react-native-richway-component@^1.0.10",
+    "name": "@rich/react-native-richway-component",
+    "escapedName": "@rich%2freact-native-richway-component",
+    "scope": "@rich",
+    "rawSpec": "^1.0.10",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.10"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://119.90.37.83:7001/@rich/react-native-richway-component/download/@rich/react-native-richway-component-1.0.10.tgz",
+  "_shasum": "f63c27fdcd227157dacd1c342dbda1993135f193",
+  "_spec": "@rich/react-native-richway-component@^1.0.10",
+  "_where": "d:\\richwayReactNative",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react-native-popup-dialog": "^0.16.6",
+    "react-navigation": "^3.0.9"
+  },
+  "deprecated": false,
+  "description": "`$ npm install react-native-richway-component --save`",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "",
+  "main": "index.js",
+  "name": "@rich/react-native-richway-component",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.10"
+}

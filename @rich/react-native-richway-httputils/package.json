@@ -1,0 +1,41 @@
+{
+  "_from": "@rich/react-native-richway-httputils@^1.0.3",
+  "_id": "@rich/react-native-richway-httputils@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-bUoHwKW62rYyyu3q6h+bMSNmQRk=",
+  "_location": "/@rich/react-native-richway-httputils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@rich/react-native-richway-httputils@^1.0.3",
+    "name": "@rich/react-native-richway-httputils",
+    "escapedName": "@rich%2freact-native-richway-httputils",
+    "scope": "@rich",
+    "rawSpec": "^1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://119.90.37.83:7001/@rich/react-native-richway-httputils/download/@rich/react-native-richway-httputils-1.0.3.tgz",
+  "_shasum": "6d4a07c0a5badab632caedeaea1f9b3123664119",
+  "_spec": "@rich/react-native-richway-httputils@^1.0.3",
+  "_where": "d:\\richwayReactNative",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "react-native的数据访问工具类",
+  "keywords": [
+    "react-native"
+  ],
+  "license": "",
+  "main": "index.js",
+  "name": "@rich/react-native-richway-httputils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
